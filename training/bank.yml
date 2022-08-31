@@ -1,0 +1,43 @@
+categories:
+- hospital
+conversations:
+- - Hi
+  - Hello Sir/Madam. How Can i help you?
+- - Hello
+  - Hello Sir/Madam. How Can i help you?
+- - Hey
+  - Hello Sir/Madam. How Can i help you?
+- - Thanks
+  - Your are most welcome.
+- - Thank
+  - Your are most welcome.
+- - Whats up?
+  - I am doing well. How can i help you?
+- - Thank you.
+  - Your are most welcome. Any question?
+- - Bank name?
+  - XYZ Bank
+- - what is your bank name?
+  - XYZ Bank
+- - How many branch do you have?
+  - Sir, we have about 100+ branch over the country.
+- - How branch do you have?
+  - Sir, we have about 100+ branch over the country.
+- - How many type account there?
+  - Sir, you can open Saving account, Current Account in our bank.
+- - bank Address?
+  - Dhaka, bangladesh.
+- - Address
+  - Dhaka, bangladesh.
+- - location
+  - Dhaka, bangladesh.
+- - phone number?
+  - 0123456789
+- - phone?
+  - 0123456789
+- - number?
+  - 0123456789
+- - open time?
+  - Sir, We are open during working days.
+- - time?
+  - Sir, We are open during working days.

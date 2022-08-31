@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>AI BANKING CHATBOT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/bot.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        <i class="fas fa-comment-alt"></i> Banking Chat Bot System
+      </div>
+      <div class="msger-header-title">
+        <p class="username">{{userName}}</p>
+      </div>
+      <div class="msger-header-options">
+        <button id="logoutBtn"><span><i class="fas fa-sign-out-alt"></i></span></button>
+      </div>
+    </header>
+
+    <main class="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(https://image.flaticon.om/icons/svg/327/327779.svg)"></div>
+
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name"> BANKING AI CHATBOT</div>
+          </div>
+
+          <div class="msg-text">
+            Hi, welcome to BANKING CHAT BOT! Go ahead and send me a message. 😄
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" placeholder="Enter your message...">
+      <button type="submit" class="msger-send-btn sendBtn">Send</button>
+      <button class="msger-send-btn voiceBtn"><span style="font-size: 2em;"><i
+            class="fas fa-microphone-alt"></i></span></button>
+    </form>
+  </section>
+  <!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script src="../static/bot.js"></script>
+  <script src="../static/voice-engine.js"></script>
+</body>
+
+</html>

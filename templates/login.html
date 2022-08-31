@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>AI BANKING CHATBOT - Login</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+	<link rel="stylesheet" href="../static/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="#" onsubmit="signup()">
+				<h1>Create Account</h1>
+				<span>use your email for registration</span><br>
+				<input type="text" id="sname" placeholder="Name" />
+				<input type="email" id="semail" placeholder="Email" />
+				<input type="password" id="spass" placeholder="Password" /><br>
+				<button type="submit">Sign Up</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="#" onsubmit="signin()">
+				<h1>Sign in</h1><br>
+				<input type="email" id="lemail" placeholder="Email" />
+				<input type="password" id="lpass" placeholder="Password" /><br>
+				<button type="submit">Sign In</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Hello, Customer!</h1>
+					<p>Enter your personal details and start journey with us</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- partial -->
+	<script src="../static/script.js"></script>
+</body>
+
+</html>
